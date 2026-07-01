@@ -9,13 +9,54 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{62
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityService", "IdentityService", "{6F4A1BDB-4F8C-4E6A-9E21-68C5E2DAE5D6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity.API", "..\Tempestra_Identity_Service\IdentityService\Identity.API\Identity.API.csproj", "{7AF11B09-5AF9-3750-97BA-257BA944438D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity.Application", "..\Tempestra_Identity_Service\IdentityService\Identity.Application\Identity.Application.csproj", "{B6602D9B-A260-3C4B-DEF5-5665ED8EFC67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity.Domain", "..\Tempestra_Identity_Service\IdentityService\Identity.Domain\Identity.Domain.csproj", "{A5B68938-F503-0814-3F11-64E1B3BB9862}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity.Infrastructure", "..\Tempestra_Identity_Service\IdentityService\Identity.Infrastructure\Identity.Infrastructure.csproj", "{EB4A2790-FEA8-AB2C-6B48-E7F3D9FC4E1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity.Persistence", "..\Tempestra_Identity_Service\IdentityService\Identity.Persistence\Identity.Persistence.csproj", "{4B6780D7-D1A9-3F4D-81FB-DB58CD8AAB79}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7AF11B09-5AF9-3750-97BA-257BA944438D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AF11B09-5AF9-3750-97BA-257BA944438D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AF11B09-5AF9-3750-97BA-257BA944438D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AF11B09-5AF9-3750-97BA-257BA944438D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6602D9B-A260-3C4B-DEF5-5665ED8EFC67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6602D9B-A260-3C4B-DEF5-5665ED8EFC67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6602D9B-A260-3C4B-DEF5-5665ED8EFC67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6602D9B-A260-3C4B-DEF5-5665ED8EFC67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5B68938-F503-0814-3F11-64E1B3BB9862}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5B68938-F503-0814-3F11-64E1B3BB9862}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5B68938-F503-0814-3F11-64E1B3BB9862}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5B68938-F503-0814-3F11-64E1B3BB9862}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB4A2790-FEA8-AB2C-6B48-E7F3D9FC4E1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB4A2790-FEA8-AB2C-6B48-E7F3D9FC4E1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB4A2790-FEA8-AB2C-6B48-E7F3D9FC4E1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB4A2790-FEA8-AB2C-6B48-E7F3D9FC4E1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B6780D7-D1A9-3F4D-81FB-DB58CD8AAB79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B6780D7-D1A9-3F4D-81FB-DB58CD8AAB79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B6780D7-D1A9-3F4D-81FB-DB58CD8AAB79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B6780D7-D1A9-3F4D-81FB-DB58CD8AAB79}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{62A7EC33-B2B2-4CCC-A022-56F4F1331D0E} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{6F4A1BDB-4F8C-4E6A-9E21-68C5E2DAE5D6} = {62A7EC33-B2B2-4CCC-A022-56F4F1331D0E}
+		{7AF11B09-5AF9-3750-97BA-257BA944438D} = {6F4A1BDB-4F8C-4E6A-9E21-68C5E2DAE5D6}
+		{B6602D9B-A260-3C4B-DEF5-5665ED8EFC67} = {6F4A1BDB-4F8C-4E6A-9E21-68C5E2DAE5D6}
+		{A5B68938-F503-0814-3F11-64E1B3BB9862} = {6F4A1BDB-4F8C-4E6A-9E21-68C5E2DAE5D6}
+		{EB4A2790-FEA8-AB2C-6B48-E7F3D9FC4E1F} = {6F4A1BDB-4F8C-4E6A-9E21-68C5E2DAE5D6}
+		{4B6780D7-D1A9-3F4D-81FB-DB58CD8AAB79} = {6F4A1BDB-4F8C-4E6A-9E21-68C5E2DAE5D6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7888388B-731E-4A2F-8C3A-80F01CC4504F}
