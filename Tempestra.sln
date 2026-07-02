@@ -19,10 +19,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity.Infrastructure", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity.Persistence", "..\Tempestra_Identity_Service\IdentityService\Identity.Persistence\Identity.Persistence.csproj", "{4B6780D7-D1A9-3F4D-81FB-DB58CD8AAB79}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateway", "Gateway", "{DB6F4D5D-2C45-4182-AD98-2AC51D6477BA}"
-	ProjectSection(SolutionItems) = preProject
-		HTMLPage1.html = HTMLPage1.html
-	EndProjectSection
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateway", "Gateway", "{39C0F2A6-6726-4F30-A3E4-41AF3FE25231}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -62,7 +59,7 @@ Global
 		{A5B68938-F503-0814-3F11-64E1B3BB9862} = {6F4A1BDB-4F8C-4E6A-9E21-68C5E2DAE5D6}
 		{EB4A2790-FEA8-AB2C-6B48-E7F3D9FC4E1F} = {6F4A1BDB-4F8C-4E6A-9E21-68C5E2DAE5D6}
 		{4B6780D7-D1A9-3F4D-81FB-DB58CD8AAB79} = {6F4A1BDB-4F8C-4E6A-9E21-68C5E2DAE5D6}
-		{DB6F4D5D-2C45-4182-AD98-2AC51D6477BA} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{39C0F2A6-6726-4F30-A3E4-41AF3FE25231} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7888388B-731E-4A2F-8C3A-80F01CC4504F}
