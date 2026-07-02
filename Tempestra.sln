@@ -20,6 +20,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity.Persistence", "..\Tempestra_Identity_Service\IdentityService\Identity.Persistence\Identity.Persistence.csproj", "{4B6780D7-D1A9-3F4D-81FB-DB58CD8AAB79}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateway", "Gateway", "{DB6F4D5D-2C45-4182-AD98-2AC51D6477BA}"
+	ProjectSection(SolutionItems) = preProject
+		HTMLPage1.html = HTMLPage1.html
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
